@@ -1,12 +1,6 @@
-# Fundamentos Clave
-
-Aquí tienes el archivo **Markdown** solicitado, enfocado en **Syntax Parsers, Lexical Environments y Execution Contexts**, junto con sus **analogías neurocognitivas**:
-
----
-
 # 🧠💻 Syntax Parsers, Lexical Environments y Execution Contexts
 
-### _Una guía técnica con analogía neurocognitiva_
+### _Big Words Alert_
 
 ---
 
