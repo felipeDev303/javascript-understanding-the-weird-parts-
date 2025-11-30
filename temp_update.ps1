@@ -1,21 +1,25 @@
-﻿# Name-Value Pairs & Objects
+# Script para actualizar archivos MD con contenido simplificado
+
+# Archivo 2
+@"
+# Name-Value Pairs & Objects
 
 ## Name-Value Pairs
 
-**DefiniciÃ³n:**  
+**Definición:**  
 Estructura fundamental que combina un nombre (clave) con un valor asociado.
 
 **Componentes:**
-- **Name (clave):** cadena o sÃ­mbolo identificador
-- **Value (valor):** cualquier tipo de dato (nÃºmeros, strings, funciones, arrays, objetos, etc.)
+- **Name (clave):** cadena o símbolo identificador
+- **Value (valor):** cualquier tipo de dato (números, strings, funciones, arrays, objetos, etc.)
 
 **Ejemplo:**
-`js
+```js
 const persona = {
   nombre: "Felipe",
   edad: 28,
 };
-`
+```
 
 ### Diferencias entre Variable y Name-Value Pair
 
@@ -23,7 +27,7 @@ const persona = {
 | --- | --- |
 | Se almacena en un environment record | Forma parte de un objeto |
 | Ligada al scope | Ligada a una instancia de objeto |
-| Existe en el contexto de ejecuciÃ³n | Existe como propiedad de objeto |
+| Existe en el contexto de ejecución | Existe como propiedad de objeto |
 
 ### Importancia en JavaScript
 
@@ -37,36 +41,36 @@ const persona = {
 
 ## Objetos en JavaScript
 
-**DefiniciÃ³n:**  
-ColecciÃ³n de name-value pairs.
+**Definición:**  
+Colección de name-value pairs.
 
-`js
+```js
 const coche = {
   marca: "Toyota",
   modelo: "Corolla",
-  aÃ±o: 2020,
+  año: 2020,
 };
-`
+```
 
-### Formas de CreaciÃ³n
+### Formas de Creación
 
-**1. NotaciÃ³n Literal:**
-`js
+**1. Notación Literal:**
+```js
 const persona = {
   nombre: "Ana",
   edad: 25,
 };
-`
+```
 
 **2. Constructor de Objetos:**
-`js
+```js
 const persona = new Object();
 persona.nombre = "Ana";
 persona.edad = 25,
-`
+```
 
 **3. Object.create():**
-`js
+```js
 const proto = {
   saludar() {
     console.log("Hola");
@@ -75,26 +79,29 @@ const proto = {
 const persona = Object.create(proto);
 persona.nombre = "Ana";
 persona.edad = 25;
-`
+```
 
 ### Acceso a Propiedades
 
-**NotaciÃ³n de punto:**
-`js
+**Notación de punto:**
+```js
 obj.propiedad
-`
+```
 
-**NotaciÃ³n de corchetes:**
-`js
+**Notación de corchetes:**
+```js
 obj["propiedad"]
-`
+```
 
 **Ejemplo:**
-`js
+```js
 console.log(persona.nombre);    // Ana
 console.log(persona["edad"]);   // 25
-`
+```
 
 ---
 
-Anterior tema: [Syntax Parsers, Lexical Environments y Execution Contexts](./1.%20Syntax%20Parsers%2C%20Lexical%20Environments%20y%20Execution%20Contexts.md) | Siguiente tema: [Global Environment & The Global Object](./3.%20Global%20Environment%20%26%20The%20Global%20Object.md) | Volver al Ã­ndice: [Ãndice TemÃ¡tico](./README.md)
+Anterior tema: [Syntax Parsers, Lexical Environments y Execution Contexts](./1.%20Syntax%20Parsers%2C%20Lexical%20Environments%20y%20Execution%20Contexts.md) | Siguiente tema: [Global Environment & The Global Object](./3.%20Global%20Environment%20%26%20The%20Global%20Object.md) | Volver al índice: [Índice Temático](./README.md)
+"@ | Out-File -FilePath "2. Name-Value Pairs & Objects.md" -Encoding UTF8 -Force
+
+Write-Host "Archivos actualizados correctamente"
