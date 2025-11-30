@@ -18,3 +18,5 @@ Alerta de palabras grandes: este curso utiliza términos técnicos y conceptos a
 6. [Function Invocation & The Execution Stack](./6.%20Function%20Invocation%20%26%20The%20Execution%20Stack.md)
 7. [Function, Context & Variable Environments](./7.%20Function%2C%20Context%20%26%20Variable%20Environments.md)
 8. [The Scope Chain](./8.%20The%20Scope%20Chain.md)
+9. [Scope, ES6 & let](./9.%20Scope%2C%20ES6%20%26%20let.md)
+10. [Asynchronous Callbacks](./10.%20Asynchronous%20Callbacks.md)
