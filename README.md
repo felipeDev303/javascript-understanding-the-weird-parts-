@@ -19,13 +19,14 @@ No imites, entiende. Este repositorio contiene recursos y notas para el curso "J
 11. [Dynamic Typing](./11.%20Dynamic%20Typing.md)
 12. [Primitive Types](./12.%20Primitive%20Types.md)
 13. [Operators](./13.%20Operators.md)
-14. [Associativity](./15.%20Asociativity.md)
-15. [Coercion](./16.%20Coercion.md)
-16. [Comparison Operators](./17.%20Comparison%20Operators.md)
-17. [Existence and Booleans](./18.%20Existence%20and%20Booleans.md)
-18. [Default Values](./19.%20Default%20Values.md)
-19. [Object Literals](./20.%20Object%20Literals.md)
-20. [Objects & The Dot](./21.%20Objects%20%26%20The%20Dot.md)
+14. [Operator Precedence](./14.%20Operator%20Precedence.md)
+15. [Associativity](./15.%20Asociativity.md)
+16. [Coercion](./16.%20Coercion.md)
+17. [Comparison Operators](./17.%20Comparison%20Operators.md)
+18. [Existence and Booleans](./18.%20Existence%20and%20Booleans.md)
+19. [Default Values](./19.%20Default%20Values.md)
+20. [Object Literals](./21.%20Object%20Literals.md)
+21. [Objects & The Dot](./20.%20Objects%20%26%20The%20Dot.md)
 
 ---
 
